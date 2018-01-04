@@ -2,4 +2,4 @@
 Generates an emoji matrix of the 'wan (is a dog barking in Japanese)' like a numpy.ones
 
 # Demo
-$ python3 wans_python.py
+$ python3 wans.py
