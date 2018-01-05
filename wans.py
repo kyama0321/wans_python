@@ -52,8 +52,8 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-r', '--row', default=15, type=int)
-    parser.add_argument('-c', '--col', default=1, type=int)
+    parser.add_argument('-r', '--row', default=5, type=int)
+    parser.add_argument('-c', '--col', default=5, type=int)
     parser.add_argument('-n', '--name', default='face', type=str, choices=['face', 'body', 'panda'])
 
     opt = parser.parse_args()
